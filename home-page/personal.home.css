@@ -17,7 +17,7 @@ body{
     align-items:center;
     height: 100vh;
     overflow:hidden;
-    background-color:brown;
+    background-color:#fff;
 };
 
 
@@ -32,26 +32,38 @@ h1 {
     display:flex;
     justify-content:space-around;
     align-items:center;
-    margin:10px;
+    margin-top:15px;
+    
     border-radius: 10% 15% 10% 15%;
-    background: linear-gradient(131deg, #000, #a9a9a9,#00008b,#000, #a9a9a9,#00008b,#000, #a9a9a9,#00008b);
+    background: radial-gradient(180deg, #000, #fff, #000,#000, #fff, #000,#000, #fff, #000);
     /* linear-gradient(131deg, #ff2400, #e81d1d, #e8b71d,
      #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); */
-    height: 200px;
-    width:850px;
+    height: 100px;
+    width:450px;
     opacity: 80%;
     -webkit-filter:invert(100%);  
     filter:invert(100%);    
 }
 
 img {
-    width: 150px;
-    height: fit-content;
+    width: 6vmax;
+    height: auto;
     opacity: 80%;
     margin-left: auto;
-    transition: width 2s height 2s;
-    border-color:linear-gradient(131deg, #ff2400, #e81d1d, #e8b71d,
-     #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    transition: 0.5s;
+    background: #fff;
+   /* border-color:linear-gradient(256deg, #ff2400, #e81d1d, #e8b71d,
+     #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); */
+}
+
+img:hover {
+    max-width: 10vh;
+    height: fit-content; 
+    transition: 0.5s;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 25%;
+    border: width 8vmax;;
 }
 
 #myname {
@@ -60,9 +72,11 @@ img {
     justify-content: center;
     text-align: left;
     align-items: left; 
-    font-size: 56pt;
-    background-color: rgb(141, 65, 80);
-    text-decoration-color: darkblue;
+    color:#fff;
+    font-size: 10vh;
+    margin-bottom: 15px;
+    background-color: #000;
+    text-decoration: underline 10%;
 }
 
 #about-me {
@@ -71,14 +85,8 @@ img {
     align-items: center;
 }
 
-img:hover {
-    width: 200px;
-    height: fit-content; 
-    transition: 0.5s;
-    border-color: white;
-    border-style: solid;
-    border-radius: 25%;
-    border-width: 15px;
+.scroll {
+    background-color: #fff;
 }
 
 #img:hover > #icon-bar{
@@ -87,28 +95,31 @@ img:hover {
 
 #about-text {
     font-size: medium;
+    color:#fff;
     text-align: center;
     width: 350px;
-    background-color: red;
+    margin-top: 100px;
+    background-color: #000;
 }
 
 #github-icon {
     width:auto;
-    background-color: blue;
+    background-color: ghostwhite;
 }
 
 #resume-icon {
     width:auto;
-    background: #000;
-}
+    background-color: #fff;
+    margin:none;
+} 
 
 #linkedin-icon {
     width:auto;
-    background-color: silver;
+    background-color: yellow;
 }
 
 
 #personal-projects-icon {
-    width:auto;
-    background-color: red;
+    height:fit-content;
+    width: auto;
 }
