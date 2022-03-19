@@ -45,6 +45,11 @@ h1 {
     filter:invert(100%);    
 }
 
+.done {
+opacity: 10%;
+background: #a0a0a0;
+} 
+
 img {
     width: 6vmax;
     height: auto;
@@ -87,10 +92,6 @@ img:hover {
 
 .scroll {
     background-color: #fff;
-}
-
-#img:hover > #icon-bar{
-    background-color: #000;
 }
 
 #about-text {
