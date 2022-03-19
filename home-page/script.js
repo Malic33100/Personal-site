@@ -1,24 +1,25 @@
-/* $(document).ready(function() {
-
-    $('.img').on('mouseover', function () {
-        $(img).addClass('done');
-        console.log("huh");
-    });
-    
-});   */
-var pictures = document.getElementsByClassName('.img');
-for(var i=0;i < pictures.length;i++){
-    pictures[i].addEventListener('mouseover',chicken);
-}
-
+//var pictures = document.getElementsByClassName('.img');
 var myPig = document.getElementById('about-text');
+var myA = document.getElementById('resume');
+var myB = document.getElementById('github');
+var myC = document.getElementById('linkedin');
+var myD = document.getElementById('personal-projects');   
+
+/* for(var i=0;i < pictures.length;i++){
+    pictures[i].addEventListener('mouseover',chicken);
+} */
+
+myPig.addEventListener('mouseover',chicken);
+myA.addEventListener('mouseover',chicken);
+myB.addEventListener('mouseover',chicken);
+myC.addEventListener('mouseover',chicken);
+myD.addEventListener('mouseover',chicken); 
 // pictures.addEventListener('mouseover',chicken());
 
 function chicken() {
-//var pictures = document.getElementsByClassName(".img");
-for(var i= 0;i < pictures.length;i++){
-myPig.textContent = "gotcha bitch";
-}
+myPig.textContent = "youre nosy arent you";
 };
+
+
     
 

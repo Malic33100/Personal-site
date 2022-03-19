@@ -44,12 +44,6 @@ h1 {
     -webkit-filter:invert(100%);  
     filter:invert(100%);    
 }
-
-.done {
-opacity: 10%;
-background: #a0a0a0;
-} 
-
 img {
     width: 6vmax;
     height: auto;
@@ -69,6 +63,10 @@ img:hover {
     border-style: solid;
     border-radius: 25%;
     border: width 8vmax;;
+}
+
+.chicken {
+    background-color: yellow;
 }
 
 #myname {
