@@ -9,17 +9,24 @@ var myD = document.getElementById('personal-projects');
     pictures[i].addEventListener('mouseover',chicken);
 } */
 
-myPig.addEventListener('mouseover',chicken);
+//myPig.addEventListener('mouseover',chicken);
 myA.addEventListener('mouseover',chicken);
 myB.addEventListener('mouseover',chicken);
 myC.addEventListener('mouseover',chicken);
-myD.addEventListener('mouseover',chicken); 
+myD.addEventListener('mouseover',chicken);
+myA.addEventListener('mouseout',steak);
+myB.addEventListener('mouseout',steak);
+myC.addEventListener('mouseout',steak);
+myD.addEventListener('mouseout',steak); 
 // pictures.addEventListener('mouseover',chicken());
 
 function chicken() {
 myPig.textContent = "youre nosy arent you";
 };
 
+function steak() {
+    myPig.textContent = "Software engineer extraordinaire";
+}
 
     
 
