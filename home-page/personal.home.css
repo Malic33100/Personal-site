@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+/* focus and outline style */
 :focus {
     outline: 5px;
     outline-color: blue;
@@ -9,6 +9,7 @@
     box-sizing: border-box ;
 }
 
+/* body styles */
 body{
     font-family: "Montserrat" , sans-serif;
     display:flex;
@@ -21,13 +22,14 @@ body{
 };
 
 
-h1 {
+h2 {
     font-family: "Montserrat", sans-serif;
     display:flex;
     align-content:center;
     align-items: center;
 }
 
+/* icon bar styles, contains img icons */
 #icon-bar{
     display:flex;
     justify-content:space-around;
@@ -45,6 +47,7 @@ h1 {
     filter:invert(100%);    
 }
 
+/*img styles */
 img {
     width: 6vmax;
     height: auto;
@@ -56,6 +59,7 @@ img {
      #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); */
 }
 
+/* hover animation */
 img:hover {
     max-width: 10vh;
     height: fit-content; 
@@ -66,6 +70,7 @@ img:hover {
     border: width 8vmax;;
 }
 
+/* my name that appears on page */
 #myname {
     display: flex;
     flex-direction: row;
@@ -79,7 +84,7 @@ img:hover {
     text-decoration: underline 10%;
     animation: 2s ease-out 0s 1 Fadein;
 }
-
+/* animtion that plays on page lod */
 @keyframes Fadein{
     0%{
         opacity:0;
@@ -89,12 +94,14 @@ img:hover {
     }
 }
 
+/* container for about text */
 #about-me {
     background-color:blue;
     display: flex;
     align-items: center;
 }
 
+/* about text that describes page, and element currently hovered */
 #about-text {
     font-size: medium;
     color:#fff;
@@ -102,10 +109,12 @@ img:hover {
     width: 350px;
     margin-top: 100px;
     background-color: #000;
-    transition-duration: s;
+    transition-duration: 2s;
     transition: linear;
+    animation: 2s ease-out 0s 1 Fadein;
 }
 
+/* icon styles */
 #github-icon {
     width:auto;
     background-color: ghostwhite;
