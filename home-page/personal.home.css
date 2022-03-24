@@ -9,6 +9,8 @@
     box-sizing: border-box ;
 }
 
+
+
 /* body styles */
 body{
     font-family: "Montserrat" , sans-serif;
@@ -17,7 +19,7 @@ body{
     justify-content:center;
     align-items:center;
     height: 100vh;
-    overflow:hidden;
+    position:relative;
     background-color:#000;
 };
 
@@ -135,4 +137,14 @@ img:hover {
 #personal-projects-icon {
     height:fit-content;
     width: auto;
+}
+
+/* page spanner that separates project page from home page */
+
+#page-spanner {
+    width:fit-content;
+    height:1600px;
+    background-color: #fff;
+    display:flex;
+    overflow: hidden;
 }
