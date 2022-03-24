@@ -2,13 +2,11 @@ ReadME
 
 Hello! This is the code for my personal website. In creating this website I have dabbled with the following skills and technologies:
 
-Html and CSS
-Javascript
+Html5 and CSS3
+Ecmascript and ES6
 
 This project is my first because I wanted to have a trophy case to show all of my work in, so I figured getting a trophy case 
 before the trophies would be a smart idea. 
-
-
 
 Home page
 
