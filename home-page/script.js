@@ -43,5 +43,11 @@ function steak() {
     myPig.textContent = "Software engineer extraordinaire";
 }
 
-    
+//function to scroll page on button click
+
+function ScrollIntoViewDown (){
+    var target = document.getElementById("body2");
+
+    scrollTo(target);
+}
 
