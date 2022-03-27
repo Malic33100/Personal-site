@@ -9,7 +9,13 @@
     box-sizing: border-box ;
 }
 
-
+html {
+    overflow-y:auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
+    width:100%;
+}
 
 /* body styles */
 body{
@@ -18,7 +24,7 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    height: 100vh;
+    height: 100%;
     position:relative;
     background-color:#000;
 };
@@ -82,6 +88,7 @@ img:hover {
     color:#fff;
     font-size: 10vh;
     margin-bottom: 15px;
+    margin-top:55%;
     background-color: #000;
     text-decoration: underline 10%;
     animation: 2s ease-out 0s 1 Fadein;
@@ -142,8 +149,9 @@ img:hover {
 /* page spanner that separates project page from home page */
 
 #page-spanner {
-    width:fit-content;
-    height:1600px;
+    margin-top:58%;
+    width:100%;
+    height:10%;
     background-color: #fff;
     display:flex;
     overflow: hidden;
