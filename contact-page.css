@@ -1,0 +1,20 @@
+* {
+    outline-style: auto;
+    outline-color: blue;
+}
+
+body {
+    display: grid;
+}
+
+#Inputs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#message-box{
+    display: flex;
+    background-color: blue;
+}

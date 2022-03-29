@@ -24,23 +24,30 @@ myPersonal.addEventListener('mouseout',steak);
 // functions that change about text according to image hovered over
 function resume() {
 myPig.textContent = "Take a look at my resume";
+myPig.style.opacity = 1;
 };
 
 function github() {
     myPig.textContent = "1 Commit a day is the best way";
+    myPig.style.opacity = 1;
 }
 
 function linkedin() {
     myPig.textContent = "See me in a dress shirt";
+    myPig.style.opacity = 1;
 }
 
 function personalProjects() {
     myPig.textContent = "Coding projects and things";
+    myPig.style.opacity = 1;
 }
 
 // function to reset the about box text after hover
 function steak() {
-    myPig.textContent = "Software engineer extraordinaire";
+    myPig.textContent = "Welcome to my website!"
+    myPig.style.opacity = 1;
+    myPig.style.transition = ease;
+    myPig.style.transitionDuration = 2;
 }
 
 //function to scroll page on button click

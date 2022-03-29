@@ -85,9 +85,9 @@ img:hover {
     text-align: left;
     align-items: left; 
     color:#fff;
-    font-size: 230%;
+    font-size: 5em;
     margin-bottom: 15px;
-    margin-top:55%;
+    margin-top:20%;
     background-color: #000;
     text-decoration: underline 10%;
     animation: 2s ease-out 0s 1 Fadein;
@@ -109,11 +109,17 @@ img:hover {
     align-items: center;
 }
 
+#about-sum {
+    margin:none;
+    opacity: 1;
+}
+
 /* about text that describes page, and element currently hovered */
 #about-text {
     font-size: medium;
     color:#fff;
     text-align: center;
+    opacity: 0;
     width: 350px;
     margin-top: 100px;
     background-color: #000;
@@ -158,8 +164,7 @@ img:hover {
 }
 
 #returnToMain {
-    margin-bottom:50%;
-    margin-left: 25%;
+    margin-bottom:10%;
     display: flex;
     justify-self: center;
 }
