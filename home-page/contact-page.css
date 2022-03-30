@@ -1,5 +1,5 @@
 * {
-    outline-style: auto;
+    outline-style:initial;
     outline-color: blue;
 }
 
@@ -9,7 +9,7 @@ body {
 
 #form {
     display: flex;
-    width:60%;
+    width:40%;
     height:auto;
     justify-content: space-between;
     flex-direction: row;

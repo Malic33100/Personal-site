@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="contact-page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h2 id="title">Contact Page</h2>
+    <p>Questions? Comments? Heres how you can reach me!</p>
+    <div id="Inputs">
+        <form id="form">
+
+        <label for="first">First Name(*)</label><input type="text" id="first" placeholder="First Name" required> 
+
+        <label for="last">Last Name(*)</label><input type="text" id="last" placeholder="Last Name" required>
+
+        <label for="email">Email(*)</label>
+        <input type="email" id="email" placeholder="email address" required> 
+
+        <label for="telly">Cell-phone</label><input type="tel" id="telly">
+
+        <label for="file">Attach file:</label><input type="file" id="file">
+
+        <input type="text" id="message-box" placeholder="Brief message">
+        
+        <input type="submit" name="submit" id="submit" onclick="Footer()">
+    </form>
+    </div>
+    
+    <footer id="footer">Fields Marked with '*' are required </footer>
+    <script>
+        /*
+        function Footer(){
+            var foot = document.getElementsById("footer");
+            foot.style.opacity = 0;
+        }
+        */
+    </script>   
+
+</body>
+</html>
