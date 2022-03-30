@@ -1,26 +1,52 @@
 * {
     outline-style:initial;
-    outline-color: blue;
+    outline-color: red;
 }
 
 body {
     display: grid;
 }
 
+p{
+    justify-self: center;
+}
+
+#title{
+    justify-self: center;
+}
+
+#Inputs {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: auto;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+#file {
+    color:green;
+}
+
 #form {
     display: flex;
-    width:40%;
-    height:auto;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height:80%;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     justify-self: center;
 }
 
 #message-box{
     display: flex;
     background-color: blue;
+    margin: 5%;
 }
 
 #footer {
     display: flex;
+    justify-self: center;
 }
