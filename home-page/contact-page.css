@@ -5,9 +5,15 @@
     outline-color: red;
 }
 
+text{
+    color:#fff;
+    font-family: sans-serif;
+}
+
 body {
     display: grid;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    background-color: #000;
 }
 
 p{
@@ -52,5 +58,10 @@ p{
 
 #footer {
     display: flex;
+    justify-self: center;
+}
+
+#return-home {
+    display:flex;
     justify-self: center;
 }

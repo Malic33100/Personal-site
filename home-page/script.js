@@ -3,7 +3,7 @@ var myPig = document.getElementById('about-text');
 var myResume = document.getElementById('resume');
 var myGithub = document.getElementById('github');
 var myLinkedin = document.getElementById('linkedin');
-var myPersonal = document.getElementById('personal-projects');   
+var myContact = document.getElementById('contact');   
 
 /* for(var i=0;i < pictures.length;i++){
     pictures[i].addEventListener('mouseover',chicken);
@@ -13,13 +13,13 @@ var myPersonal = document.getElementById('personal-projects');
 myResume.addEventListener('mouseover',resume);
 myGithub.addEventListener('mouseover',github);
 myLinkedin.addEventListener('mouseover',linkedin);
-myPersonal.addEventListener('mouseover',personalProjects);
+myContact.addEventListener('mouseover',contact);
 
 // event listeners for mouse moving off img
 myResume.addEventListener('mouseout',steak);
 myGithub.addEventListener('mouseout',steak);
 myLinkedin.addEventListener('mouseout',steak);
-myPersonal.addEventListener('mouseout',steak); 
+myContact.addEventListener('mouseout',steak); 
 
 // functions that change about text according to image hovered over
 function resume() {
@@ -37,8 +37,8 @@ function linkedin() {
     myPig.style.opacity = 1;
 }
 
-function personalProjects() {
-    myPig.textContent = "Coding projects and things";
+function contactPage() {
+    myPig.textContent = "Reach out ot me!";
     myPig.style.opacity = 1;
 }
 
