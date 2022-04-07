@@ -60,6 +60,7 @@ function ScrollIntoViewDown (){
 
 // function to fill blank project slots
 
+/* 
 function Slot1(){
     var panel = document.getElementsByClassName("panel");
 
@@ -70,3 +71,4 @@ panel.div.html = Block text "Under construction";
         panel.border.css = glowing/bright border;
     }
 }
+*/
