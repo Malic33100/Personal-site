@@ -18,6 +18,8 @@ body {
 
 p{
     justify-self: center;
+    color:#fff;
+    font-family: sans-serif;
 }
 
 #title{
@@ -58,7 +60,7 @@ p{
 
 #message-box{
     display: flex;
-    background-color: blue;
+    background-color: black;
     margin: 5%;
     width: 90%;
 }
@@ -66,6 +68,7 @@ p{
 #footer {
     display: flex;
     justify-self: center;
+    color:#fff;
 }
 
 #return-home {
@@ -74,3 +77,9 @@ p{
     color:#fff;
     background-color: #000;
 }
+
+/*
+#return-home:hover {
+
+}
+*/
