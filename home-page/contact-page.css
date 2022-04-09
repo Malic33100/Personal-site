@@ -13,7 +13,7 @@ text{
 body {
     display: grid;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
-    background-color: #000;
+    background-color: #fff;
 }
 
 p{
@@ -21,7 +21,14 @@ p{
 }
 
 #title{
-    justify-self: center;
+    display: grid;
+    justify-content: center;
+    text-align: left; 
+    color:#fff;
+    font-size: 5em;
+    background-color: #000;
+    text-decoration: underline 10%;
+    animation: 2s ease-out 0s 1 Fadein;
 }
 
 #Inputs {
