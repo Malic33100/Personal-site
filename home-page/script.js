@@ -13,7 +13,7 @@ var myContact = document.getElementById('contact');
 myResume.addEventListener('mouseover',resume);
 myGithub.addEventListener('mouseover',github);
 myLinkedin.addEventListener('mouseover',linkedin);
-myContact.addEventListener('mouseover',contact);
+myContact.addEventListener('mouseover',contactPage);
 
 // event listeners for mouse moving off img
 myResume.addEventListener('mouseout',steak);
@@ -38,7 +38,7 @@ function linkedin() {
 }
 
 function contactPage() {
-    myPig.textContent = "Reach out ot me!";
+    myPig.textContent = "Reach out to me!";
     myPig.style.opacity = 1;
 }
 

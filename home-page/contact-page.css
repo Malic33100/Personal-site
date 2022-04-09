@@ -13,7 +13,7 @@ text{
 body {
     display: grid;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
-    background-color: #fff;
+    background-color: #000;
 }
 
 p{
@@ -71,4 +71,6 @@ p{
 #return-home {
     display:flex;
     justify-self: center;
+    color:#fff;
+    background-color: #000;
 }
