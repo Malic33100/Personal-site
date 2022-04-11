@@ -161,7 +161,7 @@ img:hover {
 /* page spanner that separates project page from home page */
 
 #page-spanner {
-    margin-top:5em;
+    margin-top:5vh;
     margin-bottom: 15%;
     width:100%;
     height:10%;
@@ -223,6 +223,11 @@ img:hover {
     height: 25%;
     margin-top:5%;
    color:blue;
+}
+
+.last-panel {
+    margin-bottom: auto;
+    opacity: 0;
 }
 
 #panel-space {

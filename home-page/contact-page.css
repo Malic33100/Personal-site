@@ -61,6 +61,8 @@ p{
 #message-box{
     display: flex;
     background-color: black;
+    color:#fff;
+    text-overflow: ellipsis;
     margin: 5%;
     width: 90%;
 }

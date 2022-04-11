@@ -58,6 +58,7 @@ function ScrollIntoViewDown (){
     scrollTo(target);
 }
 
+
 // function to fill blank project slots
 
 /* 
