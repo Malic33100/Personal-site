@@ -5,6 +5,8 @@ var myGithub = document.getElementById('github');
 var myLinkedin = document.getElementById('linkedin');
 var myContact = document.getElementById('contact');   
 
+myPig.textContent = "Hover over an icon to learn more!";
+
 /* for(var i=0;i < pictures.length;i++){
     pictures[i].addEventListener('mouseover',chicken);
 } */
@@ -28,7 +30,7 @@ myPig.style.opacity = 1;
 };
 
 function github() {
-    myPig.textContent = "1 Commit a day is the best way";
+    myPig.textContent = "1 Commit a day";
     myPig.style.opacity = 1;
 }
 
@@ -44,20 +46,11 @@ function contactPage() {
 
 // function to reset the about box text after hover
 function steak() {
-    myPig.textContent = "Welcome to my website!"
+    myPig.textContent = "Hover over an icon to learn more!"
     myPig.style.opacity = 1;
-    myPig.style.transition = ease;
+    myPig.style.transition = "ease-in";
     myPig.style.transitionDuration = 2;
 }
-
-//function to scroll page on button click
-
-function ScrollIntoViewDown (){
-    var target = document.getElementById("body2");
-
-    scrollTo(target);
-}
-
 
 // function to fill blank project slots
 

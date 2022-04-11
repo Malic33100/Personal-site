@@ -197,13 +197,6 @@ img:hover {
     justify-content: space-between;
 }
 
-.panel:hover { 
-    transition: 0.5s;
-    border-color: white;
-    border-style: solid;
-    border-width: 25%;
-}
-
 .panel-points {
     width:40%;
 }
@@ -233,4 +226,8 @@ img:hover {
 #panel-space {
     margin-top: 1vw;
     margin-bottom: 1vw;
+}
+
+#Top {
+    font-size: x-large;
 }

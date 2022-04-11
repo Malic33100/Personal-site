@@ -11,6 +11,8 @@
 
 <!-- html dom -->
 <body id="body">
+    <a id="TopOfBody"></a>
+
 
     <!-- my name displayed in text-->
     <h1 class="about-me" id="myname">Malik Mertus</h1>
@@ -48,9 +50,8 @@
     
     <!-- button to scroll down to project page, same as project button icon -->
     
-             <h2><a href="bottom half of page" id="scroll-button">
-                 Tap to see my projects
-             </h2>
+             <a href="#Projects" id="scroll-button">
+               <h2>Tap to see my projects</h2>
             </a>
        
 
@@ -61,7 +62,10 @@
     <!-- <div id="body2"> -->
         <button type="button" id="return" class="btn-default">Tap to return to main page</button>
 
-        <h2 id="project-page-title">Projects </h2>
+        <a id="Projects">
+            <h2 id="project-page-title">Projects </h2>
+        </a>
+        
 
         <span id="panel-space"></span>
 
@@ -109,8 +113,9 @@
         </div>
         </div>
 
-        
-    <!-- </div> -->
+        <div id="scroll-to-top">
+            <a href="#TopOfBody" id="Top">Scroll back to the top</a>
+        </div>
 
     <!-- scripts for JS and jquery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
