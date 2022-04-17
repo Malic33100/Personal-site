@@ -196,6 +196,7 @@ img:hover {
     animation: 2s ease-out 0s 1 Fadein;
 }
 
+/* panel style elements
 .panel {
     display: flex;
     flex-direction: row;
@@ -238,4 +239,13 @@ img:hover {
 
 #Top {
     font-size: x-large;
+}
+
+/* footer */
+#footer {
+    background-color: #a9a9a9;
+    text-align: center;
+    width: 110%;
+    height: auto;
+    color: #fff;
 }
