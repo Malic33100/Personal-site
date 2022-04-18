@@ -4,8 +4,10 @@ var myResume = document.getElementById('resume');
 var myGithub = document.getElementById('github');
 var myLinkedin = document.getElementById('linkedin');
 var myContact = document.getElementById('contact');   
+var Panelist = document.getElementsByClassName('panel');
 
-AboutText.textContent = "Hover over an icon to learn more!";
+
+//AboutText.textContent = "Hover over an icon to learn more!";
 
 /* for(var i=0;i < pictures.length;i++){
     pictures[i].addEventListener('mouseover',chicken);
@@ -17,31 +19,32 @@ myGithub.addEventListener('mouseover',github);
 myLinkedin.addEventListener('mouseover',linkedin);
 myContact.addEventListener('mouseover',contactPage);
 
-// event listeners for mouse moving off img
-myResume.addEventListener('mouseout',ResetText);
-myGithub.addEventListener('mouseout',ResetText);
-myLinkedin.addEventListener('mouseout',ResetText);
-myContact.addEventListener('mouseout',ResetText); 
-
 // functions that change about text according to image hovered over
+// event listeners for mouse moving off img are also added
+
 function resume() {
 AboutText.textContent = "Take a look at my resume";
 AboutText.style.opacity = 1;
+myResume.addEventListener('mouseout',ResetText);
+
 };
 
 function github() {
     AboutText.textContent = "1 Commit a day";
     AboutText.style.opacity = 1;
+   myGithub.addEventListener('mouseout',ResetText); 
 }
 
 function linkedin() {
-    AboutText.textContent = "See me in a dress shirt";
+    AboutText.textContent = "See me in a dress shirt (linkedin)";
     AboutText.style.opacity = 1;
+myLinkedin.addEventListener('mouseout',ResetText);
 }
 
 function contactPage() {
-    AboutText.textContent = "Reach out to me!";
+    AboutText.textContent = "Here's how you can reach out to me!";
     AboutText.style.opacity = 1;
+myContact.addEventListener('mouseout',ResetText); 
 }
 
 // function to reset the about box text after hover
@@ -52,32 +55,15 @@ function ResetText() {
     AboutText.style.transitionDuration = 2;
 }
 
-// secondary form validation
-form.addEventListener("submit", function (event) {
-	// stop form submission
-	event.preventDefault();
-
-	// validate the form
-	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);
-	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
-	// if valid, submit the form.
-	if (nameValid && emailValid) {
-		alert("Demo only. No form was posted.");
-	}
-});
-
-
-
 // function to fill blank project slots
-/* 
-function Slot1(){
-    var panel = document.getElementsByClassName("panel");
+ function BlankSpace (){
+     var i = 0;
 
-    if(panel.html = empty){
-panel.div.html = Block text "Under construction";
+    if(i < Panelist.length){
+        i++;
     }
     else{
-        panel.border.css = glowing/bright border;
+        document.panel[i].classList
+        
     }
-}
-*/
+ }

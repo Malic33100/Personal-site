@@ -67,9 +67,35 @@ p{
     width: 90%;
 }
 
+#submit {
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px solid #a9a9a9;
+    text-decoration: none;
+    color:#000;
+    width:50%;
+    align-self: center;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#submit:hover {
+animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow:
+        0 0 25px yellow,
+        0 0 50px silver;
+    }
+}
+
 #footer {
     display: flex;
     justify-self: center;
+    text-align:center;
+
     color:#fff;
 }
 
