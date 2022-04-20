@@ -30,7 +30,7 @@ myResume.addEventListener('mouseout',ResetText);
 };
 
 function github() {
-    AboutText.textContent = "1 Commit a day";
+    AboutText.textContent = "Check out my Github";
     AboutText.style.opacity = 1;
    myGithub.addEventListener('mouseout',ResetText); 
 }
@@ -42,7 +42,7 @@ myLinkedin.addEventListener('mouseout',ResetText);
 }
 
 function contactPage() {
-    AboutText.textContent = "Here's how you can reach out to me!";
+    AboutText.textContent = "Contact page";
     AboutText.style.opacity = 1;
 myContact.addEventListener('mouseout',ResetText); 
 }

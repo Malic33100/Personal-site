@@ -171,6 +171,11 @@ img:hover {
     width: auto;
 }
 
+#scroll-down {
+    display: flex;
+    margin-bottom:none;
+}
+
 /* page spanner that separates project page from home page */
 
 #page-spanner {
