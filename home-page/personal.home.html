@@ -18,7 +18,7 @@
     <!-- my name displayed in text-->
     <h1 class="about-me" id="myname">Malik Mertus</h1>
     <!-- icon bar and corresponding images -->
-    <div class="links btn-default" id="icon-bar">
+    <div class="links" id="icon-bar">
          <div id="resume-icon img">
              <a href="#">
              <img class="icon img" id="resume" src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg"  
@@ -37,7 +37,7 @@
         </div>
         <div id="contact-page-icon img">
             <a href="contact-page.html">
-            <img class="icon img" id="contact" src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg" alt="contact page">
+            <img class="icon img" id="contact" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="contact page">
             </a>
         </div>
 
@@ -51,34 +51,38 @@
     
     <!-- button to scroll down to project page, same as project button icon -->
     
-             <a href="#Projects" id="scroll-button">
-               <h2 id="scroll-down">Tap to see my projects</h2>
+        <div id="scroll-down">
+            <a href="#Projects" id="scroll-button">
+               <h2>Tap to see my projects</h2>
             </a>
-       
-
-    <div id="page-spanner">
-        <span id="page-spanner">- - - - - - - - - - - - - - - - - - - - - - - - - - - -</span>
-    </div>
+        </div>
+             
+       <div id="block"></div>
 
     <!-- <div id="body2"> -->
-
-        <a id="Projects">
+        <div id="Projects">
+         <a>
             <h2 id="project-page-title">Projects</h2>
-        </a>
+        </a>   
+        </div>
+        
         
 
         <span id="panel-space"></span>
 
-        <div id="first-panel" class="panel">
-            <img class="panel-image" src="" alt="preview of personal site">
+      <!--<div id="panel-bar" class="panel"> -->  
+
+           <div id="first-panel" class="panel">
+            <img class="panel-image" src="personal-web-snip.png" alt="preview of personal site">
             <div id="panel-points1" class="panel-points">
-            <ol>
-                <h3 id="panel-points">Bullet points abt project</h3>
-                <h3 id="panel-points">Bullet points abt project</h3>
-                <h3 id="panel-points">Bullet points abt project</h3>
+            <ol class="panel-text">
+                <h3 id="panel-points">Personal web site</h3>
+                <h3 id="panel-points">Showcases my projects and gives users a way to contact me</h3>
+                <h3 id="panel-points">Built using HTML/CSS as well as: javascript, node.js</h3>
             </ol>
         </div>
-            <button id="live-version" class="btn-default panel-button">Live Version</button>
+          
+              <button id="live-version" class="btn-default panel-button">Live Version</button>
             <button id="Github-version" class="btn-default panel-button">Github</button>
         </div>
 
@@ -87,7 +91,7 @@
         <div id="panel2" class="panel">
             <img class="panel-image" src="" alt="preview of personal site">
             <div id="panel-points2" class="panel-points">
-            <ol>
+            <ol class="panel-text">
                 <h3 id="panel-points">Bullet points abt project</h3>
                 <h3 id="panel-points">Bullet points abt project</h3>
                 <h3 id="panel-points">Bullet points abt project</h3>
@@ -102,7 +106,7 @@
         <div id="panel3" class="panel">
             <img class="panel-image" src="" alt="preview of personal site">
             <div id="panel-points3" class="panel-points">
-            <ol>
+            <ol id="panel-text">
                 <h3 id="panel-points">Bullet points abt project</h3>
                 <h3 id="panel-points">Bullet points abt project</h3>
                 <h3 id="panel-points">Bullet points abt project</h3>
@@ -111,28 +115,18 @@
             <button id="live-version" class="btn-default panel-button">Live Version</button>
             <button id="Github-version" class="btn-default panel-button">Github</button>
         </div>
-        </div>
+        
 
-        <div id="panel4" class="panel last-panel">
-            <img class="panel-image" src="" alt="preview of personal site">
-            <div id="panel-points3" class="panel-points">
-            <ol>
-                <h3 id="panel-points">Bullet points abt project</h3>
-                <h3 id="panel-points">Bullet points abt project</h3>
-                <h3 id="panel-points">Bullet points abt project</h3>
-            </ol>
-        </div>
-            <button id="live-version" class="btn-default panel-button">Live Version</button>
-            <button id="Github-version" class="btn-default panel-button">Github</button>
-        </div>
-        </div>
+
+        <!-- </div> -->
+        
 
         <div id="scroll-to-top">
             <a href="#TopOfBody" id="Top">Scroll back to the top</a>
         </div>
 
         <div id="footer">
-          <h2>Created and designed by: Malik Mertus</h2>  
+          <h2>Created and designed by : Malik Mertus</h2>  
         </div>
           
         
