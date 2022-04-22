@@ -22,7 +22,10 @@ a {
 }
 
 @media (max-width: 750px){
-    
+    .panel-points {
+        display: none;
+    }
+
 #about-text {
      content:"Software engineer"
    }
@@ -96,6 +99,8 @@ img:hover {
     display: grid;
     justify-content: center;
     text-align: left; 
+    align-self:auto;
+    margin-left: 1vw;
     color:#fff;
     font-size: 5em;
     margin-top:100%;
@@ -252,8 +257,14 @@ color:blue;
     background: #fff;
 }
 
+.panel-press {
+    /*oansod */
+    color:green
+}
+
 .panel-button {
     display: flex;
+    flex-direction: column;
     width: auto;
     align-self: center;
     height: 25%;
@@ -286,4 +297,8 @@ color:blue;
     align-self: center;
     height: 25vh;
     color: #fff;
+}
+
+.coming-soon {
+    display:none;
 }
