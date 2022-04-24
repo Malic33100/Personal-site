@@ -54,16 +54,3 @@ function ResetText() {
     AboutText.style.transition = "ease-in";
     AboutText.style.transitionDuration = 2;
 }
-
-// function to fill blank project slots
- function BlankSpace (){
-     var i = 0;
-
-    if(i < Panelist.length){
-        i++;
-    }
-    else{
-        document.panel[i].classList
-        
-    }
- }
