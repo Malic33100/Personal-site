@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Malic33100/Personal-site/issues"
   },
-  "homepage": "https://github.com/Malic33100/Personal-site#readme"
+  "homepage": "https://github.com/Malic33100/Personal-site#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.3"
+  }
 }
