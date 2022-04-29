@@ -20,12 +20,23 @@ const transporter = nodemailer.createTransport(mailgun({
 }));
 
 const mailOptions = {
-    from: email, //user's mail address, you can make it dynamic from contact form
+    from: [email], //user's mail address, you can make it dynamic from contact form
     to: "mertus.malik@gmail.com", //the mail address you authorized in mailgun (receipient mail address)
     subject: "", //maybe from contact for
-    text: form, //maybe from contact for
+    text: [form], //maybe from contact for
 };
 
+// verifies smtp connection, server is able to accept messages
+transporter.verify(function(error,success){
+    if(error){
+        console.log(error);
+    }
+    else{
+        console.log("server is good to go");
+    }
+});
+
+// sends message, alerts of success
 transporter.sendMail(mailOptions, (error, response) => {
     if (error) {
         console.log(error);
