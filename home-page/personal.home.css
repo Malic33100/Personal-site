@@ -76,6 +76,7 @@ img {
     width: 6vmax;
     height: auto;
     opacity: 80%;
+    border-color:#000;
     margin-left: 50px;
     transition: 0.5s;
     background: #fff;
