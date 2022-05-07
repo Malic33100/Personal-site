@@ -19,3 +19,18 @@ let transporter = nodemailer.createTransport({
         refreshToken: process.env.OAUTH_REFRESH_TOKEN
     }
 });
+
+let mailOptions = {
+        from: "malic33100@gmail.com",
+        to: "mertus.malik@gmail.com",
+        subject: 'Enter sub',
+        text: 'Hi from your nodemailer project'
+      };
+
+transporter.sendMail(mailOptions, function(err, data) {
+    if (err) {
+      console.log("Error " + err);
+    } else {
+      console.log("Email sent successfully");
+    }
+  });

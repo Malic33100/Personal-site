@@ -241,16 +241,18 @@ img:hover {
 .panel-text {
 text-overflow: clip;
 color:blue;
+text-align: center;
 }
 
 .panel-points {
     width:40%;
     overflow: auto;
     font-size: small;
+    margin:auto;
 }
 
 .panel-image {
-    width: initial;
+    width: auto;
     height: auto;
     opacity: 100%;
     transition: 0.5s;
@@ -268,6 +270,7 @@ color:blue;
     flex-direction: column;
     width: auto;
     align-self: center;
+    justify-content: center;
     height: 25%;
     margin-top:5%;
    color:blue;
@@ -298,8 +301,9 @@ color:blue;
     align-self: center;
     height: 25vh;
     color: #fff;
+    display: none;
 }
 
 .coming-soon {
-    display:none;
+    visibility:none;
 }
