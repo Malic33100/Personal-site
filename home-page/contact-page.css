@@ -74,7 +74,7 @@ p{
     text-decoration: none;
     color:#000;
     width:50%;
-    align-self: center;
+    justify-self: center;
     text-align: center;
     padding: 20px 50px;
 }
